@@ -1,0 +1,33 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc --build && node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidthorn/graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidthorn/graphql/issues"
+  },
+  "homepage": "https://github.com/davidthorn/graphql#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.16.0",
+    "@types/express-graphql": "^0.6.2",
+    "@types/graphql": "^14.0.5",
+    "@types/node": "^10.12.18",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "typescript": "^3.2.4"
+  }
+}
