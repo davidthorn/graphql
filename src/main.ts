@@ -1,6 +1,6 @@
 import express, {} from 'express'
 import graphqlHTTP from 'express-graphql'
-import { SpaceX } from './MyGraphQlSchema'
+import { SpaceX } from './SpaceX'
 
 const app = express()
 
